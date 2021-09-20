@@ -1,0 +1,90 @@
+<html>
+    <head> <!--get from bootstrap-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/workbook.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link href= "img/logo.ico" rel="shortcut icon">
+        <title>芋頭吃吃_快點想芋頭</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="text-align:right">
+                        <a href="https://kellypx.github.io/fmt__yutou/">
+                            <img src="img/home.png" alt="home">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+            <section>
+                <div class="container">
+                    <div class="col-md-12 text-center">
+                        <div class="content" style="position:relative">
+                            <img class="mySlides" src="img/1.png">
+                            <img class="mySlides" src="img/2.png">
+                            <img class="mySlides" src="img/3.png">
+                            <img class="mySlides" src="img/4.png">
+                            <img class="mySlides" src="img/5.png">
+                            <img class="mySlides" src="img/6.png">
+                        </div>
+                            <a class="w3-btn-floating" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)"><img src="img/left-arrow.png"></a>
+                            <a class="w3-btn-floating" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)"><img src="img/right-arrow.png"></a>
+                        <script>
+                            var slide = 0;
+                            carousel();
+                            
+                            function carousel() {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides");
+                              for (i = 0; i < x.length; i++) {
+                               x[i].style.display = "none";
+                              }
+                              slide++;
+                              if (slide > x.length) {slide = 1}
+                              x[slide-1].style.display = "block";
+                              setTimeout(carousel, 5000); // Change image every seconds
+                            }
+                        </script>
+                      
+                        <script>
+                            var slideIndex = 1;
+                            showDivs(slideIndex);
+                            
+                            function plusDivs(n) {
+                              showDivs(slideIndex += n);
+                            }
+                            function showDivs(n) {
+                              var i;
+                              var x = document.getElementsByClassName("mySlides");
+                              if (n > x.length) {slideIndex = 1}    
+                              if (n < 1) {slideIndex = x.length} ;
+                              for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";  
+                              }
+                              x[slideIndex-1].style.display = "block";  
+                            }
+                        </script>
+                    </div>
+                </div>
+            </section>
+            
+                    
+            
+        <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <p>Copyright©2021 fmt_yutou</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

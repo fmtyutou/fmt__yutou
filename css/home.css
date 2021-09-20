@@ -1,0 +1,129 @@
+@media only screen and (max-width: 980px){
+
+    #intro h1{
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    #intro img{
+        width: 30%;
+        float: left;
+        margin-right: 0px;
+    }
+    #second h5{
+        margin-bottom: 63px;
+    }
+
+    #latest .outer{
+        margin-bottom: 20px;
+    }
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #FF7CA8;
+}
+p,a,input,label,textarea,span,ul,li{
+    font-family: 'Open Sans', sans-serif;
+    color: #FF7CA8;
+}
+h3{
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+header{
+    background-color: #EEA1C3;
+}
+header img{
+    max-width: 30px;
+    padding-top: 40px ;
+}
+
+#intro .jumbotron{
+    height:85vh;
+    background-color: #EEA1C3;
+}
+#intro h1{
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#intro img{
+    width: 30%;
+    float: left;
+    margin-right: 150px;
+    padding-top: 63px;
+}
+#intro .container{
+    position: relative;
+    top: 63%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#second{
+    padding: 80px 0;
+    background-color: #FFF6FB;
+}
+#second h3{
+    margin-bottom: 80px;
+}
+#second img{
+    border-radius: 100%;
+    margin-bottom: 13px;
+}
+.word a:hover{
+    text-decoration: none;
+    color: #CB507A;
+}
+#second a img{
+    border-radius: 30%;
+    max-width: 40px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+#latest{
+    padding: 80px;
+    background-color: #FDE9F4;
+}
+#latest h3{
+    margin-bottom: 80px;
+
+}
+#latest .innertext{
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+#latest .lower h3{
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    text-align: center;
+}
+#latest .outer{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+    height: 100px;
+}
+#latest .lower{
+    padding: 6px 20px 20px 20px;
+}
+#latest a{
+    color: black;
+}
+#latest a:hover{
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    background-color: #FDE9F4;
+}
+html{
+    background-color: #FDE9F4; 
+}

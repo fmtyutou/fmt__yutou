@@ -1,0 +1,35 @@
+body{
+    background-color: #FFD9E7;
+}
+p{
+    color: #FF7CA8;
+    margin: 15px 0px;
+    text-align: center;
+}
+header{
+    background-color: #FFD9E7;
+}
+header img{
+    max-width: 30px;
+    padding-top: 15px ;
+}
+.img img{
+    max-width: 30%;
+    margin: 10px 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.08);
+}
+#content .box{
+
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+#content .container{
+    width: 400px;
+    margin: auto;
+}
+h1{
+    color: #FF7CA8;
+    text-align: center;
+}
