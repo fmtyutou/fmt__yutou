@@ -84,6 +84,9 @@ header img{
     margin-right: 10px;
     margin-top: 5px;
 }
+#second p{
+    text-align:justify;
+}
 
 #latest{
     padding: 80px;
