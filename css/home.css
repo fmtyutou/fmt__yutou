@@ -13,7 +13,9 @@
     #second h5{
         margin-bottom: 63px;
     }
-
+     #second .words{
+        margin: 0px 20px;
+    }
     #latest .outer{
         margin-bottom: 20px;
     }
