@@ -2,6 +2,7 @@
 
     #intro .jumbotron img{
         margin-right: 15px;
+        width:40%;
     }
     #intro .jumbotron h1{
         font-size:40px;
